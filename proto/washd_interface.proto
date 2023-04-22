@@ -1,0 +1,9 @@
+syntax = "proto3";
+package washd;
+option go_package = "github.com/arwassa/wash-watch/pgk/washd";
+import "washd_messages.proto";
+
+
+service WashService {
+  rpc ListMachines (MachineListRequest) returns (MachineList);
+}

@@ -1,0 +1,5 @@
+# sio username and password
+username: username
+password: password
+# listen on http, if false then unix socket is used
+http: false

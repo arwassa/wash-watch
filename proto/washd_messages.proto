@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+package washd;
+option go_package = "github.com/arwassa/wash-watch/pgk/washd";
+message Machine{
+  string name = 1;
+  string status = 2;
+}
+
+message MachineList{
+  repeated Machine machines = 1;
+}
+
+message MachineListRequest {
+}
